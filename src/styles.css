@@ -3,27 +3,9 @@
   text-align: center;
 }
 
-.daterangepicker.show-calendar .drp-buttons {
-  display: flex;
-  justify-content: space-between;
-}
-.daterangepicker .calendar-table td {
-  width: 30px;
-  height: 30px;
-}
-.daterangepicker td.end-date {
-  border-end-end-radius: 50%;
-  border-start-end-radius: 50%;
-}
-
-.daterangepicker td.start-date {
-  border-start-start-radius: 50%;
-  border-end-start-radius: 50%;
-}
-.daterangepicker td.start-date.end-date {
-  border-radius: 50%;
-}
-
-.daterangepicker .calendar-time {
-  text-align: left;
+input {
+  border: 1px solid #E5E5E5;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
 }

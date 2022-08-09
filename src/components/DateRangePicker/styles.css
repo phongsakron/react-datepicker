@@ -1,0 +1,127 @@
+.daterangepicker td.today {
+  display: table;
+  color: black;
+}
+.daterangepicker.show-calendar .drp-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.daterangepicker .calendar-table td {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.daterangepicker td div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.daterangepicker td.end-date div,
+.daterangepicker td.start-date div {
+  background-color: #04be8c;
+}
+.daterangepicker td.end-date div {
+  border-radius: 50%;
+}
+
+.daterangepicker td.start-date div {
+  border-radius: 50%;
+}
+.daterangepicker td.end-date.outter {
+  border-end-end-radius: 50%;
+  border-start-end-radius: 50%;
+  background-color: rgba(4, 190, 140, 0.1);
+}
+
+.daterangepicker td.start-date.outter {
+  border-start-start-radius: 50%;
+  border-end-start-radius: 50%;
+  background-color: rgba(4, 190, 140, 0.1);
+}
+.daterangepicker td.start-date.end-date {
+  border-radius: 50%;
+}
+
+.daterangepicker td.today div {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.daterangepicker .calendar-time {
+  text-align: left;
+}
+
+.daterangepicker td.available:hover {
+  border-radius: 0;
+}
+
+.daterangepicker td.today.outter {
+  border-radius: 50%;
+  background-color: #04be8c;
+}
+
+.daterangepicker td.in-range {
+  background-color: rgba(4, 190, 140, 0.1);
+}
+.daterangepicker .cancelBtn {
+  /* Right button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem !important;
+
+  width: 84px;
+
+  /* Primary/Active */
+
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  border: 0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.daterangepicker .applyBtn {
+  /* Right button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem !important;
+
+  width: 84px;
+
+  /* Primary/Active */
+
+  background: #04be8c;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.daterangepicker select.hourselect {
+  border: 1px solid #e5e5e5;
+  background: white;
+  /* padding: 2rem; */
+}
+.daterangepicker td.end-date.off {
+  color: white;
+}
